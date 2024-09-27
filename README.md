@@ -1,4 +1,21 @@
-# Dash pdf
+<p align="center">
+    <h1 align="center"><b>Dash PDF</b></h1>
+	<p align="center">
+		Display PDFs in your Dash apps.
+    <br />
+    <br />
+    <br />
+    <img width="100" height="100" src="https://avatars.githubusercontent.com/u/60114551?s=200&v=4" alt="Ploomber Logo">
+    <br />
+    <b>  Made by <a href="https://ploomber.io">Ploomber</a> with ❤️</b>
+    <br />
+    <br />
+    <i>Deploy your Dash application on <a href="https://ploomber.io">Ploomber.io</a> for free.</i>
+    <br />
+  </p>
+</p>
+<br/>
+
 
 Live demo: [dash-pdf.ploomberapp.io](https://dash-pdf.ploomberapp.io/)
 
@@ -6,6 +23,43 @@ Live demo: [dash-pdf.ploomberapp.io](https://dash-pdf.ploomberapp.io/)
 
 ```sh
 pip install dash-pdf
+```
+
+## Usage
+
+```python
+from dash import Dash, html
+import dash_pdf
+import requests
+from pathlib import Path
+import dash
+
+dash._dash_renderer._set_react_version("18.2.0")
+
+app = Dash(__name__)
+
+# Download the PDF and read it as bytes
+url = 'https://css4.pub/2015/textbook/somatosensory.pdf'
+response = requests.get(url)
+pdf_bytes = response.content
+
+# Alternatively, you can read a local PDF file
+# pdf_bytes = Path('path/to/local/file.pdf').read_bytes()
+
+app.layout = html.Div([
+    dash_pdf.PDF(
+        id='pdf-viewer',
+        # Pass the PDF content as bytes, you can also pass a URL
+        data=pdf_bytes,
+        # use these to customize the class names
+        buttonClassName="",
+        labelClassName="",
+        controlsClassName="",
+    )
+])
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
 ```
 
 ## Run demo locally

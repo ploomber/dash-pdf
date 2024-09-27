@@ -1,6 +1,6 @@
 /* eslint-disable import/prefer-default-export */
-import DashPdf from './components/DashPdf.react';
+import _DashPdf from './components/_DashPdf.react';
 
 export {
-    DashPdf
+    _DashPdf
 };
