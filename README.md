@@ -17,6 +17,10 @@
 <br/>
 
 
+
+https://github.com/user-attachments/assets/bcc9ba7d-5110-4fb9-ba58-551684890ae9
+
+
 Live demo: [dash-pdf.ploomberapp.io](https://dash-pdf.ploomberapp.io/)
 
 ## Installation
