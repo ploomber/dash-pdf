@@ -34,7 +34,7 @@ def load_pdf(url):
 app.layout = html.Div(
     [
         html.H1(
-            "Dash PDF Viewer",
+            "Dash PDF",
             className="text-4xl font-bold text-center my-8 text-gray-800",
         ),
         html.Div(
