@@ -1,0 +1,13 @@
+Package: dashPdf
+Title: pdf for Dash
+Version: 0.0.1
+Description: pdf for Dash
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: Apache-2.0 + file LICENSE
+URL: https://github.com/ploomber/dash-pdf
+BugReports: https://github.com/ploomber/dash-pdf/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true

@@ -1,0 +1,11 @@
+include dash_pdf/dash_pdf.min.js
+include dash_pdf/dash_pdf.min.js.map
+include dash_pdf/async-*.js
+include dash_pdf/async-*.js.map
+include dash_pdf/*-shared.js
+include dash_pdf/*-shared.js.map
+include dash_pdf/metadata.json
+include dash_pdf/package-info.json
+include README.md
+include LICENSE
+include package.json
