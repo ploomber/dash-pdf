@@ -7,10 +7,10 @@
     <br />
     <img width="100" height="100" src="https://avatars.githubusercontent.com/u/60114551?s=200&v=4" alt="Ploomber Logo">
     <br />
-    <b>  Made by <a href="https://ploomber.io">Ploomber</a> with ❤️</b>
+    <b>  Made by <a href="https://ploomber.io/?utm_source=dash-pdf&utm_medium=github">Ploomber</a> with ❤️</b>
     <br />
     <br />
-    <i>Deploy your Dash application on <a href="https://ploomber.io">Ploomber.io</a> for free.</i>
+    <i>Deploy your Dash application on <a href="https://www.platform.ploomber.io/register/?utm_source=dash-pdf&utm_medium=github">Ploomber.io</a> for free.</i>
     <br />
   </p>
 </p>
@@ -21,7 +21,7 @@
 https://github.com/user-attachments/assets/bcc9ba7d-5110-4fb9-ba58-551684890ae9
 
 
-Live demo: [dash-pdf.ploomberapp.io](https://dash-pdf.ploomberapp.io/)
+Live demo: [dash-pdf.ploomberapp.io](https://dash-pdf.ploomberapp.io/?utm_source=dash-pdf&utm_medium=github)
 
 ## Installation
 

@@ -129,7 +129,7 @@ if __name__ == '__main__':
                     " by ",
                     html.A(
                         "Ploomber",
-                        href="https://ploomber.io",
+                        href="https://ploomber.io/?utm_source=dash-pdf&utm_medium=github",
                         target="_blank",
                         rel="noopener noreferrer",
                         className="text-blue-500 hover:text-blue-700 underline",
@@ -138,7 +138,7 @@ if __name__ == '__main__':
                     html.Span("⭐ on "),
                     html.A(
                         "GitHub",
-                        href="https://github.com/ploomber/dash-pdf",
+                        href="https://github.com/ploomber/dash-pdf/?utm_source=dash-pdf&utm_medium=github",
                         target="_blank",
                         rel="noopener noreferrer",
                         className="text-blue-500 hover:text-blue-700 underline",
